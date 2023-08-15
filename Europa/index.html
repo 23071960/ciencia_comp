@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt"> <!--informa o idioma do site-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Detecta a Largura do dospositivo que acessa a página-->
+    <title>Titulo qualquer</title>
+    <link rel="styleSheet"  href="reset.css"> <!-- link para o arquivo .css que resseta toso os estilos do html-->
+    <link rel="styleSheet" href="styles.css"> <!--faz a ligação entre o html e a folha de estilos a serem utilizados-->
+</head>
+<body> 
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu" class="container__rotulo">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>    
+            <ul class="lista-menu"><!-- inico da lista-->
+                <li class="lista-menu__titulo"> CATEGORIAS</li>
+                    <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-End</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design e UX</a>
+                </li>
+                <!-- fim da lista-->
+            </ul>
+            <!--<h1 class="container__titulo">UM TITULO QUALQUER</h1> -->
+            <img src="imagens/europa.svg" alt="logo Jardim Europa">
+             <h1 class="container__titulo container__titulo--negrito">Col. Estadual Jardim Europa</h1>
+        </div>
+        <div class="container">       
+            <ul class="opções">
+                <input type="checkbox" id="opções-menu" class="opções__botão">
+                <label for="opções-menu" class="opções__rotulo">
+                    <li class="opções__item_">Categorias</li>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-End</a>
+                    </li>
+                    <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                    </li>
+                    <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                    </li>
+                    <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design e UX</a>
+                    </li>
+                </ul>
+                <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li> 
+                <li class="opções__item"><a href="#" class="opções__link">Meus cursos</a></li> 
+            </ul>
+        </div>
+
+        <div class="contaizner">
+            <a href="#"></a> <img src="imagens/Favoritos.svg"
+             alt="Meus favoritos" class="container__imagem"></a>
+            <a href="#"></a> <img src="imagens/Sacola.svg"
+             alt="Carrinho de compras" class="container__imagem"></a>
+            <a href="#"></a> <img src="imagens/Usuario.svg" 
+            alt="Perfil do usuário" class="container__imagem"></a>
+        </div>
+    </header>
+</body>
+</html>  
